@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Inter Italic';
+    src: url('../js/css/fonts/inter_italic.eot'); /* IE 9 Compatibility Mode */
+    src: url('../js/css/fonts/inter_italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('../js/css/fonts/inter_italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../js/css/fonts/inter_italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('../js/css/fonts/inter_italic.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../js/css/fonts/inter_italic.svg#inter_italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter Italic';
+    font-size: 24px;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background: #0C3120;
+    width: 100%;
+}
+
+.conteiner {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    width: 88%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+
+
+.conteiner li {
+    display: inline;
+}
+
+.first--place {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.first--text {
+    color: #FFFFFF;
+    font-size: 54px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 42px;
+}
+
+
+.conteiner_two ul{
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 20px;
+    margin-left: 250px;
+    gap: 309px;
+}
+.conteiner_two li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.conteiner_two a{
+    color: #FFFFFF;
+}
+
+head {
+    padding: 50px 0;
+}
+
+.site-footer {
+    background-color: #0C3120;
+    padding: 20px 0;          /* Отступ сверху и снизу */
+}
+
+.footer-container {
+    display: flex;                  /* Flex-контейнер для горизонтального расположения */
+    flex-wrap: wrap;                /* Позволяем блокам переноситься при нехватке места */
+    gap: 80px;                      /* Промежуток между блоками */
+    max-width: 1350px;              /* Ограничиваем максимальную ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер в пределах подвала */
+    padding-left: 100px;/* Горизонтальные отступы на десктопе */
+}
+
+
+
+.footer-nav,
+.footer-contacts,
+.footer-site,
+.footer-pravo,
+.footer-servys{
+    margin: 0;
+    font-size: 20px /* Убираем лишние вертикальные отступы */
+}
+
+.footer-contacts h2,
+.footer-servys h2,
+.footer-pravo h2,
+.footer-site h2 {
+    font-size: 25px;
+}
+
+.footer-nav li,
+.footer-contacts li,
+.footer-site li,
+.footer-pravo li,
+.footer-servys li{
+    margin-top: 20px;
+    list-style: none;    /* Убираем маркеры списка */
+    margin-bottom: 10px; /* Отступ между пунктами списка */
+    font-size: 16px;
+}
+
+.footer-nav a,
+.footer-contacts a,
+.footer-site a,
+.footer-pravo a,
+.footer-servys a {
+
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+    color: #FFFFFF;           /* Цвет текста ссылок */
+}
+
+body {
+    padding-bottom: 40px;  /* Высота подвала + запас */
+}
+
+.fixed-footer{
+    font-size: 10px;
+    margin-left: 716px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.footer-logo{
+    margin: 0 auto;
+}
